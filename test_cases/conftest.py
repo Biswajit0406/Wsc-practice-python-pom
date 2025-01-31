@@ -37,3 +37,4 @@ def pytest_configure(config):
 @pytest.mark.optionalbook
 def pytest_metadata(metadata):
     metadata.pop('Plugins',None)
+    metadata.pop('JAVA_HOME',None)
